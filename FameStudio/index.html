@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Fame Interior Design Studio</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Teko:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <style>
+        /* ✅ Navbar overlay on top of carousel */
+        .navbar {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1000;
+            /*background-color: rgba(255, 255, 255, 0.6);*/ /* transparent background */
+            box-shadow: none;
+        }
+
+        /* ✅ Remove margin that creates space */
+        .header-carousel {
+            margin-top: 0 !important;
+        }
+
+            .header-carousel .owl-dots {
+                position: absolute;
+                width: 60px;
+                height: 100%;
+                top: 0;
+                right: 30px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                display: none;
+            }
+
+        /* ✅ Carousel items should fill full screen */
+        .owl-carousel-item img {
+            width: 100%;
+            height: 100vh; /* full screen */
+            object-fit: cover;
+        }
+
+        /* ✅ Remove any other background/opacity */
+        .owl-carousel,
+        .owl-carousel-inner,
+        .owl-carousel-item,
+        .owl-carousel .container,
+        .owl-carousel .row,
+        .owl-carousel .col-10 {
+            background: transparent !important;
+            opacity: 1 !important;
+        }
+
+            /* ✅ Optional: Add text-shadow for better readability on image */
+            .owl-carousel-inner h3,
+            .owl-carousel-inner p {
+                /* text-shadow: 1px 1px 5px rgba(0,0,0,0.7);*/
+            }
+
+        /* ✅ Responsive fix for mobile */
+        @media (max-width: 768px) {
+            .owl-carousel-item img {
+                height: auto;
+            }
+        }
+    </style>
+    <style>
+        .text-justify {
+            text-align: justify;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- New Navbar Start -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid px-4">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/icons/small.png" alt="Logo" style="height: 50px;">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="service.html">Services</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button" data-bs-toggle="dropdown">
+                            Pages
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="feature.html">Our Features</a></li>
+                            <li><a class="dropdown-item" href="project.html">Our Projects</a></li>
+                            <li><a class="dropdown-item" href="team.html">Team Members</a></li>
+                            <li><a class="dropdown-item" href="appointment.html">Appointment</a></li>
+                            <li><a class="dropdown-item" href="testimonial.html">Testimonial</a></li>
+                            <li><a class="dropdown-item" href="404.html">404 Page</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- New Navbar End -->
+    <!-- Carousel Start -->
+
+    <div class="container-fluid p-0 pb-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="owl-carousel header-carousel position-relative">
+            <div class="owl-carousel-item position-relative">
+                <!--<img class="img-fluid" src="img/carousel-1.jpg" alt="">-->
+                <img class="img-fluid" src="img/Informal View 1.png" alt="">
+                <div class="owl-carousel-inner">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-10 col-lg-8">
+                                <h3 class="display-1 text-blck animated slideInDown">Fame Studio, Mumbai</h3>
+                                <p class="fs-5 fw-medium  mb-4 pb-3">From concept to completion, Fame Studio transforms your ideas into spaces you’ll love living in.</p>
+                                <!--<a href="" class="btn btn-primary py-3 px-5 animated slideInLeft">Read More</a>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="owl-carousel-item position-relative">
+                <!--<img class="img-fluid" src="img/carousel-2.jpg" alt="">-->
+                <img class="img-fluid" src="img/formal View 1.png" alt="">
+                <!--<div class="owl-carousel-inner">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-10 col-lg-8">
+                                <h3 class="display-1 text-white animated slideInDown">Best Architecture And Interior Design Services</h3>
+                                <p class="fs-5 fw-medium text-white mb-4 pb-3">Vero elitr justo clita lorem. Ipsum dolor at sed stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea elitr.</p>
+                                <a href="" class="btn btn-primary py-3 px-5 animated slideInLeft">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>-->
+            </div>
+            <div class="owl-carousel-item position-relative">
+                <!--<img class="img-fluid" src="img/carousel-3.jpg" alt="">-->
+                <img class="img-fluid" src="img/formal View 2.png" alt="">
+                <!--<div class="owl-carousel-inner">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-10 col-lg-8">
+                                <h3 class="display-1 text-white animated slideInDown"> Architecture And Interior Design Services</h3>
+                                <p class="fs-5 fw-medium text-white mb-4 pb-3">Vero elitr justo clita lorem. Ipsum dolor at sed stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea elitr.</p>
+                                <a href="" class="btn btn-primary py-3 px-5 animated slideInLeft">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>-->
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Feature Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">                    
+                    <h1 class="display-5 mb-4">Why Choose Us!</h1>
+                    <p class="mb-4">At Fame Studio, we craft interiors from elegant residences to contemporary offices that inspire creativity, enhance comfort, and stand the test of time.</p>
+                    <div class="row g-4">
+                        <div class="col-12">
+                            <div class="d-flex align-items-start">
+                                <img class="flex-shrink-0" src="img/icons/icon-2.png" alt="Icon">
+                                <div class="ms-4">
+                                    <h3>Personalized Interior</h3>
+                                    <p class="mb-0">Every design is tailored to reflect your lifestyle and personality</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="d-flex align-items-start">
+                                <img class="flex-shrink-0" src="img/icons/icon-3.png" alt="Icon">
+                                <div class="ms-4">
+                                    <h3>End-to-End Solutions</h3>
+                                    <p class="mb-0">
+                                        From concept and 3D visuals to execution and styling, we manage it all.
+                                        *Quality Craftsmanship – Trusted vendors, skilled artisans, and durable finishes.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="d-flex align-items-start">
+                                <img class="flex-shrink-0" src="img/icons/icon-4.png" alt="Icon">
+                                <div class="ms-4">
+                                    <h3>Quality Craftsmanship </h3>
+                                    <p class="mb-0">Trusted vendors, skilled artisans, and durable finishes.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div>
+                        <!--<img class="img-fluid" src="img/formal View 6.png" alt="">-->
+                        <img class="img-fluid" src="img/project-2.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Feature End -->    
+    <!-- Project Start -->
+    <div class="container-xxl project py-5">
+        <div class="container">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <h4 class="section-title">Our Projects</h4>
+                <h1 class="display-5 mb-4">Visit Our Latest Projects And Our Innovative Works</h1>
+            </div>
+
+            <!-- Carousel Start -->
+            <div id="projectCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+
+                    <!-- Slide 1 -->
+                    <div class="carousel-item active">
+                        <div class="row g-4">
+                            <div class="col-lg-4">
+                                <img class="img-fluid w-100 h-100" src="img/MASTER BEDROOM - VIEW 1.png" style="object-fit: cover;" alt="">
+                            </div>
+                            <div class="col-lg-8">
+                                <div class="row g-4">
+                                    <div class="col-md-6">
+                                        <img class="img-fluid w-100 h-100" src="img/MASTER BEDROOM - VIEW 1.png" style="object-fit: cover;" alt="">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img class="img-fluid w-100 h-100" src="img/MASTER BEDROOM - VIEW 1.png" style="object-fit: cover;" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slide 2 -->
+                    <div class="carousel-item">
+                        <div class="row g-4">
+                            <div class="col-lg-4">
+                                <img class="img-fluid w-100 h-100" src="img/MBRV1.png" style="object-fit: cover;" alt="">
+                            </div>
+                            <div class="col-lg-8">
+                                <div class="row g-4">
+                                    <div class="col-md-6">
+                                        <img class="img-fluid w-100 h-100" src="img/MBRV1.png" style="object-fit: cover;" alt="">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img class="img-fluid w-100 h-100" src="img/MBRV1.png" style="object-fit: cover;" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slide 3 -->
+                    <div class="carousel-item">
+                        <div class="row g-4">
+                            <div class="col-lg-4">
+                                <img class="img-fluid w-100 h-100" src="img/BBVIEW1.png" style="object-fit: cover;" alt="">
+                            </div>
+                            <div class="col-lg-8">
+                                <div class="row g-4">
+                                    <div class="col-md-6">
+                                        <img class="img-fluid w-100 h-100" src="img/BBVIEW1.png" style="object-fit: cover;" alt="">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img class="img-fluid w-100 h-100" src="img/BBVIEW1.png" style="object-fit: cover;" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Controls -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#projectCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#projectCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+            <!-- Carousel End -->
+
+        </div>
+    </div>
+    <!-- Project End -->
+    <!-- Team Start -->
+    <!--<div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <h4 class="section-title">Team Members</h4>
+                <h1 class="display-5 mb-4">We Are Creative Architecture Team For Your Dream Home</h1>
+            </div>
+            <div class="row g-0 team-items">
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="team-item position-relative">
+                        <div class="position-relative">
+                            <img class="img-fluid" src="img/team-1.jpg" alt="">
+                            <div class="team-social text-center">
+                                <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="bg-light text-center p-4">
+                            <h3 class="mt-2">Architect Name</h3>
+                            <span class="text-primary">Designation</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item position-relative">
+                        <div class="position-relative">
+                            <img class="img-fluid" src="img/team-2.jpg" alt="">
+                            <div class="team-social text-center">
+                                <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="bg-light text-center p-4">
+                            <h3 class="mt-2">Architect Name</h3>
+                            <span class="text-primary">Designation</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="team-item position-relative">
+                        <div class="position-relative">
+                            <img class="img-fluid" src="img/team-3.jpg" alt="">
+                            <div class="team-social text-center">
+                                <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="bg-light text-center p-4">
+                            <h3 class="mt-2">Architect Name</h3>
+                            <span class="text-primary">Designation</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="team-item position-relative">
+                        <div class="position-relative">
+                            <img class="img-fluid" src="img/team-4.jpg" alt="">
+                            <div class="team-social text-center">
+                                <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="bg-light text-center p-4">
+                            <h3 class="mt-2">Architect Name</h3>
+                            <span class="text-primary">Designation</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>-->
+    <!-- Team End -->
+    <!-- Appointment Start -->
+    <!--<div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <h4 class="section-title">Appointment</h4>
+                    <h1 class="display-5 mb-4">Make An Appointment To Start Your Dream Project</h1>
+                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+                    <div class="row g-4">
+                        <div class="col-12">
+                            <div class="d-flex">
+                                <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-light" style="width: 65px; height: 65px;">
+                                    <i class="fa fa-2x fa-phone-alt text-primary"></i>
+                                </div>
+                                <div class="ms-4">
+                                    <p class="mb-2">Call Us Now</p>
+                                    <h3 class="mb-0">+012 345 6789</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="d-flex">
+                                <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-light" style="width: 65px; height: 65px;">
+                                    <i class="fa fa-2x fa-envelope-open text-primary"></i>
+                                </div>
+                                <div class="ms-4">
+                                    <p class="mb-2">Mail Us Now</p>
+                                    <h3 class="mb-0">info@example.com</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="row g-3">
+                        <div class="col-12 col-sm-6">
+                            <input type="text" class="form-control" placeholder="Your Name" style="height: 55px;">
+                        </div>
+                        <div class="col-12 col-sm-6">
+                            <input type="email" class="form-control" placeholder="Your Email" style="height: 55px;">
+                        </div>
+                        <div class="col-12 col-sm-6">
+                            <input type="text" class="form-control" placeholder="Your Mobile" style="height: 55px;">
+                        </div>
+                        <div class="col-12 col-sm-6">
+                            <select class="form-select" style="height: 55px;">
+                                <option selected>Choose Service</option>
+                                <option value="1">Service 1</option>
+                                <option value="2">Service 2</option>
+                                <option value="3">Service 3</option>
+                            </select>
+                        </div>
+                        <div class="col-12 col-sm-6">
+                            <div class="date" id="date" data-target-input="nearest">
+                                <input type="text"
+                                    class="form-control datetimepicker-input"
+                                    placeholder="Choose Date" data-target="#date" data-toggle="datetimepicker" style="height: 55px;">
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6">
+                            <div class="time" id="time" data-target-input="nearest">
+                                <input type="text"
+                                    class="form-control datetimepicker-input"
+                                    placeholder="Choose Date" data-target="#time" data-toggle="datetimepicker" style="height: 55px;">
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <textarea class="form-control" rows="5" placeholder="Message"></textarea>
+                        </div>
+                        <div class="col-12">
+                            <button class="btn btn-primary w-100 py-3" type="submit">Book Appointment</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>-->
+    <!-- Appointment End -->
+    <!-- Testimonial Start -->
+    <!--<div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <h4 class="section-title">Testimonial</h4>
+                <h1 class="display-5 mb-4">Thousands Of Customers Who Trust Us And Our Services</h1>
+            </div>
+            <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
+                <div class="testimonial-item text-center" data-dot="<img class='img-fluid' src='img/testimonial-1.jpg' alt=''>">
+                    <p class="fs-5">Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea clita.</p>
+                    <h3>Client Name</h3>
+                    <span class="text-primary">Profession</span>
+                </div>
+                <div class="testimonial-item text-center" data-dot="<img class='img-fluid' src='img/testimonial-2.jpg' alt=''>">
+                    <p class="fs-5">Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea clita.</p>
+                    <h3>Client Name</h3>
+                    <span class="text-primary">Profession</span>
+                </div>
+                <div class="testimonial-item text-center" data-dot="<img class='img-fluid' src='img/testimonial-3.jpg' alt=''>">
+                    <p class="fs-5">Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea clita.</p>
+                    <h3>Client Name</h3>
+                    <span class="text-primary">Profession</span>
+                </div>
+            </div>
+        </div>
+    </div>-->
+    <!-- Testimonial End -->
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-body footer mt-5 pt-5 px-0 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-6 col-md-6">
+                    <h3 class="text-light mb-4">Address</h3>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt text-primary me-3"></i>123 Street, New York, USA</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt text-primary me-3"></i>+012 345 67890</p>
+                    <p class="mb-2"><i class="fa fa-envelope text-primary me-3"></i>info@example.com</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-square btn-outline-body me-1" href=""><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-square btn-outline-body me-1" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square btn-outline-body me-0" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 d-none d-lg-block">
+                    <h3 class="text-light mb-4">Services</h3>
+                    <a class="btn btn-link" href="">Residential Interiors</a>
+                    <a class="btn btn-link" href="">Commercial Interiors </a>
+                    <a class="btn btn-link" href="">Space Planning & Layouts </a>
+                    <a class="btn btn-link" href="">3D Visuals & Design Concepts</a>
+                    <a class="btn btn-link" href="">Furniture Design & Customization </a>
+                </div>
+                <div class="col-lg-3 col-md-6 d-none d-lg-block">
+                    <h3 class="text-light mb-4">Quick Links</h3>
+                    <a class="btn btn-link" href="">About Us</a>
+                    <a class="btn btn-link" href="">Contact Us</a>
+                    <a class="btn btn-link" href="">Our Services</a>
+                    <a class="btn btn-link" href="">Terms & Condition</a>
+                    <a class="btn btn-link" href="">Support</a>
+                </div>               
+            </div>
+        </div>
+        <div class="container-fluid copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a href="#">Fame Interior Design Studio</a>, All Right Reserved.
+                    </div>
+                    <!--<div class="col-md-6 text-center text-md-end">-->
+                    <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                    <!--Designed By <a href="https://htmlcodex.com">HTML Codex</a>
+                    </div>-->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
